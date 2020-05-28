@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="chat.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="379.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TextArea fx:id="textArea" prefHeight="338.0" prefWidth="600.0" editable="false"/>
+        <TextField fx:id="textField" onKeyTyped="#keyTyped" layoutX="3.0" layoutY="344.0" prefHeight="25.0" prefWidth="494.0" />
+        <Button fx:id="buttonSend" onAction="#addMessage" layoutX="501.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" text="Отправить" />
+    </children>
+</Pane>
